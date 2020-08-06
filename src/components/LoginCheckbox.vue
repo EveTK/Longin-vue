@@ -37,7 +37,7 @@ export default {
 .login_checkbox label:before {
   border-radius: 2px;
   background-color: white;
-  box-shadow: 0 1px 1px #0066d0;
+  box-shadow: 0 1px 1px #c08d2e;
 }
 .login_checkbox label:after {
   content: '\f00c';
@@ -49,7 +49,7 @@ export default {
   height: 12px;
   padding: 1px;
   font: normal normal normal 12px/1 FontAwesome;
-  color: #007dff;
+  color: #c08d2e;
   float: left;
 }
 .login_checkbox input:checked + label:after {

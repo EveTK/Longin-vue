@@ -1,8 +1,8 @@
 <template>
   <span class="login_button">
     <input type="button" value="" />
-    <label>Sign In</label>
-    <label>Sign Up</label>
+    <label>登录</label>
+    <label>注册</label>
   </span>
 </template>
 <style>
@@ -20,7 +20,7 @@
   border: none;
   border-radius: 2px;
   outline: none;
-  background: #0066d0;
+  background: #dbac85;
 }
 .login_button label {
   position: absolute;

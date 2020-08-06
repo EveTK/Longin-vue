@@ -2,22 +2,22 @@
   <form class="login_form">
     <div class="login_form_r1">
       <div class="login_text">
-        <login-textfield label="First name" icon="user" />
-        <login-textfield label="Last name" />
+        <login-textfield label="Firstname" icon="user" />
+        <login-textfield label="花名" icon="user"/>
       </div>
     </div>
     <div class="login_form_r2">
-      <login-textfield label="Email address" icon="envelope-o" />
+      <login-textfield label="邮箱地址" icon="envelope-o" type="email"/>
     </div>
     <div class="login_form_r3">
-      <login-textfield label="Enter password" icon="lock" />
+      <login-textfield label="输入密码" icon="lock" type="password" />
     </div>
     <div class="login_form_r4">
-      <login-textfield label="Re-enter password" icon="lock" />
+      <login-textfield label="再次输入密码" icon="lock" type="password"/>
     </div>
     <div class="login_form_r5">
-      <login-checkbox label="Keep me sign in" />
-      <label>Forget passwords</label>
+      <login-checkbox label="保持登录状态" />
+      <label>忘记密码</label>
     </div>
     <div>
       <login-submit />
@@ -34,7 +34,16 @@ export default {
     LoginTextfield,
     LoginCheckbox,
     LoginSubmit
+  },
+  data(){
+    return {
+      password: "password",
+      emailForm:{
+        mailAddress: null
+      }
+    }
   }
+  
 }
 </script>
 <style>

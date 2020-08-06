@@ -30,7 +30,7 @@ body {
 }
 
 body {
-  background-color: #007dff;
+  background-color: #f3cf8b;
 }
 
 .app {

@@ -1,8 +1,8 @@
 <template>
   <ul class="login_tabs">
-    <li><span href="#">Sign up</span></li>
+    <li><span href="#">注册</span></li>
     <li class="login_tabs_s">or</li>
-    <li><span href="#">Sign in</span></li>
+    <li><span href="#">登录</span></li>
   </ul>
 </template>
 <style>

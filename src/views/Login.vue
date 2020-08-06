@@ -1,7 +1,7 @@
 <template>
   <div 
     class="login" 
-    :class="{ login__signin: isSignIn, login__signup: isSignup}"
+    :class="{ login__signin: isSignIn, login__signup: isSignUp}"
   >
     <login-tabs @click.native="switchState" />
     <login-form />
