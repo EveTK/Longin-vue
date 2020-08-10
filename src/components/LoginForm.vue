@@ -1,5 +1,5 @@
 <template>
-  <form class="login_form">
+  <form class="login_form" action="www.baidu.com" method="post">
     <div class="login_form_r1">
       <div class="login_text">
         <login-textfield label="Firstname" icon="user" />

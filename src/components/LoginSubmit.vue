@@ -1,8 +1,9 @@
 <template>
   <span class="login_button">
-    <input type="button" value="" />
-    <label>登录</label>
-    <label>注册</label>
+    <input type="submit" id="sub" value=""/>
+    <label for="sub">登录</label>
+    <label for="sub">注册</label>
+
   </span>
 </template>
 <style>
@@ -13,7 +14,7 @@
   overflow: hidden;
 }
 .login_button input {
-  display: block;
+  display: block; 
   flex: 1;
   width: 0;
   height: 40px;
