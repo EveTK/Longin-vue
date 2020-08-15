@@ -16,3 +16,7 @@
 `更改登录/注册tabs切换BUG`
 ## 2020-08-10
 `更改submit提交表单的BUG`
+
+## 2020-08-16
+`传入时，使用v-bind指令绑定属性type`
+`在子组件TextField中使用props接收`
