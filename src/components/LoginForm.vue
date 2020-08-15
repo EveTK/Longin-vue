@@ -37,10 +37,11 @@ export default {
   },
   data(){
     return {
-      password: "password",
-      emailForm:{
-        mailAddress: null
-      }
+      // password: "password",
+      // emailForm:{
+      //   mailAddress: null
+      // }
+      type: ""
     }
   }
   

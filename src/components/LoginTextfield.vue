@@ -7,6 +7,7 @@
     </label>
     
 
+    <!-- <input :type="[type]" /> -->
     <input :type="[type]" />
   </span>
 </template>
@@ -15,15 +16,9 @@
 <script>
 export default {
   props: {
-    label: {
-      type: String
-    },
-    icon: {
-      type: String
-    },
-    type: {
-      type: String
-    }
+    label: String,
+    icon: String,
+    type: String
   }
 
 
