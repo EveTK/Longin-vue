@@ -16,9 +16,15 @@
 <script>
 export default {
   props: {
-    label: String,
-    icon: String,
-    type: String
+    label:{ 
+      type : String
+    },
+    icon: { 
+      type : String
+    },
+    type: { 
+      type : String
+    }
   }
 
 

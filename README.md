@@ -20,3 +20,4 @@
 ## 2020-08-16
 `传入时，使用v-bind指令绑定属性type`
 `在子组件TextField中使用props接收`
+`修改了BUG`

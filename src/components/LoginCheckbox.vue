@@ -9,9 +9,7 @@ let GID = 1
 
 export default {
   props: {
-    label: {
-      type: String
-    }
+    label: String
   },
   data () {
     return {

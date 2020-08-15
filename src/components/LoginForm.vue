@@ -7,13 +7,13 @@
       </div>
     </div>
     <div class="login_form_r2">
-      <login-textfield label="邮箱地址" icon="envelope-o" type="email"/>
+      <login-textfield label="邮箱地址" icon="envelope-o" :type="email"/>
     </div>
     <div class="login_form_r3">
-      <login-textfield label="输入密码" icon="lock" type="password" />
+      <login-textfield label="输入密码" icon="lock" :type="password" />
     </div>
     <div class="login_form_r4">
-      <login-textfield label="再次输入密码" icon="lock" type="password"/>
+      <login-textfield label="再次输入密码" icon="lock" :type="password"/>
     </div>
     <div class="login_form_r5">
       <login-checkbox label="保持登录状态" />
@@ -37,11 +37,8 @@ export default {
   },
   data(){
     return {
-      // password: "password",
-      // emailForm:{
-      //   mailAddress: null
-      // }
-      type: ""
+      email: "email",
+      password: "password"
     }
   }
   
